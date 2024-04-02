@@ -31,3 +31,6 @@ jobs:
 
     - name: Build with Gradle Wrapper
       run: ./gradlew build
+
+    - name : Testing the java application
+      run : jar -tf build\libs\GitHub_Action_Demo.jar
